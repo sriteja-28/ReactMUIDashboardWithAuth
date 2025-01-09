@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "hello",
+      "password": "hello@123"
+    },
+    {
+      "id": "2",
+      "username": "sriteja_123",
+      "firstName": "Sri Teja",
+      "surname": "Muthangi",
+      "dateOfBirth": "2024-12-12",
+      "gender": "Male",
+      "contact": "9392500356",
+      "password": "sriteja@123"
+    },
+    {
+      "id": "3",
+      "username": "sriteja_",
+      "firstName": "kk",
+      "surname": "jj",
+      "dateOfBirth": "2024-12-01",
+      "gender": "Male",
+      "contact": "sritejamuthangi336@gmail.com",
+      "password": "Sriteja@123"
+    },
+    {
+      "id": "4",
+      "username": "sriteja_336",
+      "firstName": "hello",
+      "surname": "teja",
+      "dateOfBirth": "2024-11-05",
+      "gender": "Male",
+      "contact": "9392500357",
+      "password": "Qwert@123"
+    },
+    {
+      "id": "5",
+      "username": "tej1",
+      "firstName": "kjkk",
+      "surname": "hhhh",
+      "dateOfBirth": "2024-12-03",
+      "gender": "Male",
+      "contact": "9392500399",
+      "password": "Tej@123"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "name": "Task One",
+      "status": "Pending"
+    },
+    {
+      "id": "2",
+      "name": "Task Two",
+      "status": "Completed"
+    }
+  ],
+  "logs": [
+    {
+      "id": "e30a",
+      "userId": "1",
+      "loginTime": "2024-12-06T03:29:01.320Z",
+      "logoutTime": "2024-12-06T03:36:22.803Z"
+    },
+    {
+      "id": "140c",
+      "userId": "4",
+      "loginTime": "2024-11-06T03:36:22.988Z",
+      "logoutTime": "2024-11-06T03:40:54.665Z"
+    },
+    {
+      "id": "b00d",
+      "userId": "4",
+      "loginTime": "2024-12-06T04:11:27.129Z",
+      "logoutTime": "2024-12-06T04:31:04.635Z"
+    },
+    {
+      "id": "d413",
+      "userId": "1",
+      "loginTime": "2024-12-06T04:31:05.023Z",
+      "logoutTime": "2024-12-06T04:32:46.735Z"
+    },
+    {
+      "id": "42f8",
+      "userId": "1",
+      "loginTime": "2024-12-06T04:32:47.127Z",
+      "logoutTime": "2024-12-06T04:32:47.199Z"
+    },
+    {
+      "id": "0e9b",
+      "userId": "1",
+      "loginTime": "2024-12-06T04:32:47.534Z",
+      "logoutTime": "2024-12-06T11:34:48.031Z"
+    },
+    {
+      "id": "c9af",
+      "userId": "1",
+      "loginTime": "2024-12-06T04:32:47.534Z",
+      "logoutTime": "2024-12-06T11:39:26.421Z"
+    },
+    {
+      "id": "c7d9",
+      "userId": "1",
+      "loginTime": "2024-12-06T11:39:27.041Z",
+      "logoutTime": "2024-12-06T11:53:45.591Z"
+    },
+    {
+      "id": "c02c",
+      "userId": "1",
+      "loginTime": "2024-12-06T11:53:47.114Z",
+      "logoutTime": "2024-12-06T11:55:48.316Z"
+    },
+    {
+      "id": "fd54",
+      "userId": "1",
+      "loginTime": "2024-12-06T11:55:49.254Z",
+      "logoutTime": "2024-12-06T11:57:36.336Z"
+    },
+    {
+      "id": "d1a1",
+      "userId": "1",
+      "loginTime": "2024-12-06T11:57:37.309Z",
+      "logoutTime": "2024-12-06T12:01:39.000Z"
+    },
+    {
+      "id": "151d",
+      "userId": "1",
+      "loginTime": "2024-12-06T12:01:39.373Z",
+      "logoutTime": "2024-12-06T12:04:18.027Z"
+    },
+    {
+      "id": "023d",
+      "userId": "1",
+      "loginTime": "2024-12-06T12:01:39.373Z",
+      "logoutTime": "2024-12-09T06:28:41.091Z"
+    },
+    {
+      "id": "fee1",
+      "userId": "1",
+      "loginTime": "2024-12-06T12:01:39.373Z",
+      "logoutTime": "2024-12-09T06:31:06.252Z"
+    },
+    {
+      "id": "2f94",
+      "userId": "1",
+      "loginTime": "2024-12-06T12:01:39.373Z",
+      "logoutTime": "2024-12-09T06:43:39.778Z"
+    },
+    {
+      "id": "55f4",
+      "userId": "1",
+      "loginTime": "2024-12-06T12:01:39.373Z",
+      "logoutTime": "2024-12-09T06:48:38.075Z"
+    },
+    {
+      "id": "5e83",
+      "userId": "1",
+      "loginTime": "2024-12-09T06:48:38.735Z",
+      "logoutTime": "2024-12-09T06:53:41.450Z"
+    },
+    {
+      "id": "e25c",
+      "userId": "1",
+      "loginTime": "2025-01-03T10:35:42.061Z",
+      "logoutTime": "2025-01-03T10:37:59.064Z"
+    }
+  ]
+}
