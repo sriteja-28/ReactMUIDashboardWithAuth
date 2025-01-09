@@ -29,7 +29,7 @@ const UserActivity = () => {
     useEffect(() => {
         const fetchLogs = async () => {
             try {
-                const response = await axios.get(`http://localhost:3001/logs?userId=${userId}`);
+                const response = await axios.get(`https://reactmuidashboardwithauth-backend.onrender.com/logs?userId=${userId}`);
                 const logs = response.data;
 
                 const weekData = fullWeek.reduce((acc, day) => {
