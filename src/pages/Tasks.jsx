@@ -13,7 +13,7 @@ const Tasks = () => {
     }, []);
 
     useEffect(() => {
-        axios.get('http://localhost:3001/tasks').then((response) => {
+        axios.get('https://reactmuidashboardwithauth-backend.onrender.com/tasks').then((response) => {
             setTasks(response.data);
         });
     }, []);
