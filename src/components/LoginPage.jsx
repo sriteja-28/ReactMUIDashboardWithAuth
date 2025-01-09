@@ -38,7 +38,7 @@ const LoginPage = () => {
         }
 
         try {
-            const { data: users } = await axios.get('http://localhost:3001/users');
+            const { data: users } = await axios.get('https://reactmuidashboardwithauth-backend.onrender.com/users');
             const user = users.find(
                 (u) => u.username === formData.username && u.password === formData.password
             );
