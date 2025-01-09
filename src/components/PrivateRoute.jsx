@@ -34,7 +34,7 @@ const PrivateRoute = ({ children }) => {
 
             try {
                 // Make a POST request to the JSON server to save the log
-                await axios.post('http://localhost:3001/logs', logEntry);
+                await axios.post('https://reactmuidashboardwithauth-backend.onrender.com/logs', logEntry);
                 console.log('Log saved successfully:', logEntry);
             } catch (error) {
                 console.error('Error saving log:', error);
