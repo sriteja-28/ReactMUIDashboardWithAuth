@@ -11,7 +11,7 @@ const RegistrationForm = () => {
     useEffect(() => {
         const fetchUsers = async () => {
             try {
-                const { data } = await axios.get('http://localhost:3001/users');
+                const { data } = await axios.get('https://reactmuidashboardwithauth-backend.onrender.com/users');
                 setUsers(data);
             } catch (error) {
                 console.error('Error fetching users:', error);
@@ -76,7 +76,7 @@ const RegistrationForm = () => {
                 const newId = users.length > 0 ? Math.max(...users.map((user) => Number(user.id))) + 1 : 1;
                 const newUser = { id: String(newId), ...values };
                 delete newUser.confirmPassword;
-                await axios.post('http://localhost:3001/users', newUser);
+                await axios.post('https://reactmuidashboardwithauth-backend.onrender.com/users', newUser);
                 alert('Registration successful!');
                 localStorage.setItem('isLoggedIn', 'true');
                 navigate('/dashboard');
